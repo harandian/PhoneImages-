@@ -13,6 +13,8 @@
 		722ED9EE1F4233BE0093CB7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722ED9EC1F4233BE0093CB7F /* Main.storyboard */; };
 		722ED9F01F4233BE0093CB7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722ED9EF1F4233BE0093CB7F /* Assets.xcassets */; };
 		722ED9F31F4233BE0093CB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722ED9F11F4233BE0093CB7F /* LaunchScreen.storyboard */; };
+		722ED9FB1F42367F0093CB7F /* File in Resources */ = {isa = PBXBuildFile; fileRef = 722ED9FA1F42367F0093CB7F /* File */; };
+		722ED9FE1F4239D80093CB7F /* iPhoneImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 722ED9FD1F4239D80093CB7F /* iPhoneImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		722ED9EF1F4233BE0093CB7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		722ED9F21F4233BE0093CB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		722ED9F41F4233BE0093CB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722ED9FA1F42367F0093CB7F /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		722ED9FC1F4239D80093CB7F /* iPhoneImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneImageView.h; sourceTree = "<group>"; };
+		722ED9FD1F4239D80093CB7F /* iPhoneImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		722ED9D71F4233BE0093CB7F = {
 			isa = PBXGroup;
 			children = (
+				722ED9FA1F42367F0093CB7F /* File */,
 				722ED9E21F4233BE0093CB7F /* iPhone Images PhoneImages */,
 				722ED9E11F4233BE0093CB7F /* Products */,
 			);
@@ -63,6 +69,8 @@
 				722ED9E91F4233BE0093CB7F /* ViewController.h */,
 				722ED9EA1F4233BE0093CB7F /* ViewController.m */,
 				722ED9EC1F4233BE0093CB7F /* Main.storyboard */,
+				722ED9FC1F4239D80093CB7F /* iPhoneImageView.h */,
+				722ED9FD1F4239D80093CB7F /* iPhoneImageView.m */,
 				722ED9EF1F4233BE0093CB7F /* Assets.xcassets */,
 				722ED9F11F4233BE0093CB7F /* LaunchScreen.storyboard */,
 				722ED9F41F4233BE0093CB7F /* Info.plist */,
@@ -137,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722ED9FB1F42367F0093CB7F /* File in Resources */,
 				722ED9F31F4233BE0093CB7F /* LaunchScreen.storyboard in Resources */,
 				722ED9F01F4233BE0093CB7F /* Assets.xcassets in Resources */,
 				722ED9EE1F4233BE0093CB7F /* Main.storyboard in Resources */,
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				722ED9EB1F4233BE0093CB7F /* ViewController.m in Sources */,
+				722ED9FE1F4239D80093CB7F /* iPhoneImageView.m in Sources */,
 				722ED9E81F4233BE0093CB7F /* AppDelegate.m in Sources */,
 				722ED9E51F4233BE0093CB7F /* main.m in Sources */,
 			);
